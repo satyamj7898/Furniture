@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #8F857C;
+    border-radius: 10px;
+}
+#main1{
+    width: 100%;
+    height: 80%;
+    background-color:#FCF0E4;
+    border-radius: 10px;
+    z-index: 5;
+    overflow: hidden;
+}
+
+#nav{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    /* background-color: red; */
+    font-family: Gilroy;
+}
+
+#nav #left{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(133, 95, 95); */
+}
+
+#nav #right{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(30, 31, 23); */
+}
+#nav #left #circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #DFC2A0;
+    margin-top: 7px;
+}
+#nav #left a{
+    text-decoration: none;
+    color: #DFC2A0;
+    padding-left: 50px;
+    margin-top: -22px;
+    position: absolute;
+    font-size: 20px;
+}
+#nav #left h2{
+    color:#DFC2A0;
+    padding-left: 90px;
+    margin-top: -30px;
+}
+#nav #left h6{
+    color: #DFC2A0;
+    padding-left: 220px;
+    margin-top: -45px;
+    font-size: 30px;
+}
+#nav #left h5{
+    color: #DFC2A0;
+    padding-left: 360px;
+    margin-top: -18px;
+    font-size: 20px;
+}
+#nav #left #A{
+    color: #DFC2A0;
+    padding-left: 530px;
+    margin-top: -23px;
+    font-size: 25px;
+
+}
+#nav #left h4{
+    color: #DFC2A0;
+    padding-left: 560px;
+    margin-top: -24px;
+    font-size: 20px;
+}
+#nav #right #search{
+    color: #DFC2A0;
+    padding-left:450px;
+    margin-top: 10px;
+    text-decoration: none;
+    position: absolute;
+
+}
+#nav #right #circle{
+    width: 40px;
+    height: 40px;
+    /* background-color: white; */
+    background-image: url(https://images.unsplash.com/photo-1496440737103-cd596325d314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 550px;
+}
+#nav #right a{
+    color: #DFC2A0;
+    padding-left:500px;
+    margin-top: 10px;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+
+
+
+
+#main2{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#main2 #left{
+    width: 20%;
+    height: 100%;
+    background-color: #6B625B;
+}
+#main2 #right{
+    width: 85%;
+    height: 100%;
+    background-color: #90867D;
+    display: flex;
+}
+#main2 #right #rr{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+}
+#main2 #right #rc{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(17, 16, 16); */
+}
+#main2 #right #rl{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(4, 0, 255); */
+}
+#text h1{
+    font-family:Cream Cake;
+    font-size: 400px;
+    position: absolute;
+    top: 32%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    color: #ddc6af6b;
+
+}
+#text2{
+    width: 20%;
+    height: 60%;
+    /* background-color: black; */
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+}
+#text2 h5{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: blue;
+    font-size: 20px;
+}
+#text2 h1{
+    /* padding-top: 10px; */
+    padding-left: 15px;
+    color: rgb(26, 26, 70);
+    font-size: 40px;
+}
+#text2 h6{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgba(0, 0, 255, 0.603);
+    font-size: 13px;
+}
+#text2 #one{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgba(0, 0, 255, 0.418);
+    font-size: 35px;
+}
+
+#text2 h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #DFC2A0;
+    font-size: 20px;
+}
+#text2 #two{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #DFC2A0;
+    font-size: 40px;
+}
+#text2 #three{
+    padding-left: 15px;
+    padding-top: 60px;
+    font-family: Gilroy;
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.493);
+}
+#text2 #circle3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -40px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 1000px  white;
+}
+#circle3 #m{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-family: Gilroy;
+    font-size: 40px;
+
+
+}
+#text2 #na{
+    text-decoration: none;
+font-family: Gilroy;
+font-size: 40px;
+padding-left: 170px;
+margin-top: -45px;
+position: absolute;
+color: rgb(133, 114, 114);
+}
+#image img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 50%;
+}
+#image #six{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 30%;
+    height: 50%;
+}
+#main2 #left h1{
+    padding-top:20px;
+    padding-left: 40px;
+    font-family: Gilroy;
+    font-size: 30px;
+    color:#8F857C;
+
+}
+#main2 #left h3{
+    padding-top:15px;
+    padding-left: 40px;
+    font-family: Gilroy;
+    font-size: 20px;
+    color:#997c62;
+
+}
+#main2 #left a{
+    text-decoration: none;
+    color:#DFC2A0;
+    padding-left: 120px;
+    margin-top: -30px;
+    position: absolute;
+    font-family: Gilroy;
+    font-size: 30px;
+}
+#main2  #rr img{
+    width: 50%;
+
+}
+
+#main2  #rc img{
+    width: 35%;
+    margin-top: -10px;
+    
+}
+#main2  #rl #one{
+    width: 27%;
+    margin-top: 10px;
+    
+}
+#main2  #rl #two{
+    width: 45%;
+    margin-top: 8px;
+    margin-left: -87px;
+}
+#main2 #right #rr h3{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #DFC2A0;
+    font-family: Gilroy;
+    font-size: 26px;
+}
+#main2 #right #rr span{
+    position: absolute;
+    top: 50%;
+    left: 170%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+}
+#main2 #right #rr h4{
+    position: absolute;
+    top: 91%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+}
+#main2 #right #rc h3{
+    position: absolute;
+    top: 85%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #DFC2A0;
+    font-family: Gilroy;
+    font-size: 26px;
+}
+#main2 #right #rc span{
+    position: absolute;
+    top: 50%;
+    left: 190%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+}
+#main2 #right #rc h4{
+    position: absolute;
+    top: 90%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 20px;
+}
+#main2 #right #rc h4 span{
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#main2 #right #rl h3{
+    position: absolute;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #DFC2A0;
+    font-family: Gilroy;
+    font-size: 26px;
+}
+#main2 #right #rl span{
+    position: absolute;
+    top: 50%;
+    left: 180%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+}
+#main2 #right #rl h4{
+    position: absolute;
+    top: 90%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 20px;
+}
+#main2 #right #rl h4 span{
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: #dfc2a0c2;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+#a{
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    background-color: white;
+    top:73%;
+    left: 92%;
+
+}
+#b{
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    background-color: rgb(243, 116, 12);
+    top:73%;
+    left: 96%;
+
+}
+#text #a a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    color: black;
+    font-size: 20px;
+}
+#text #b a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    color: black;
+    font-size: 20px;
+}
